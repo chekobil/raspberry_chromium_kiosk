@@ -11,13 +11,13 @@ url=https://airtable.com/shrCjQjwDPteHhKpn/tblTxfk6jjpLo2JFE
 git clone https://github.com/feliper/raspberry_chromium_kiosk.git
 sh /Users/g6/raspberry_chromium_kiosk/install.sh)
 
-
-
+# si la carpeta destino ya existe
+(rm -rf /Users/g6/raspberry_chromium_kiosk)
 
 ### raspberry
 # test script
 (
-url=https://airtable.com/shrCjQjwDPteHhKpn/tblTxfk6jjpLo2JFE
+url=https://airtable.com/shrCjQjwDPteHhKpn/tblTxfk6jjpLo2JFEh
 #Raspberry OS desktop
 /usr/bin/chromium-browser --kiosk --fast --fast-start --app=$url
 )
