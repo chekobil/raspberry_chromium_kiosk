@@ -1,0 +1,32 @@
+### mac osx
+# test script
+(
+url=https://airtable.com/shrCjQjwDPteHhKpn/tblTxfk6jjpLo2JFE
+# MAC OSX 10.15
+"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" --kiosk --fast --fast-start --app=$url
+)
+
+# clone repo install script
+(cd /Users/g6
+git clone https://github.com/feliper/raspberry_chromium_kiosk.git
+sh /Users/g6/raspberry_chromium_kiosk/install.sh)
+
+
+
+
+### raspberry
+# test script
+(
+url=https://airtable.com/shrCjQjwDPteHhKpn/tblTxfk6jjpLo2JFE
+#Raspberry OS desktop
+/usr/bin/chromium-browser --kiosk --fast --fast-start --app=$url
+)
+
+# clone repo install script
+(
+cd /home/pi
+git clone https://github.com/feliper/raspberry_chromium_kiosk.git
+sh /home/pi/raspberry_chromium_kiosk/install.sh
+)
+
+# para cerrar navegador alt+F4 o alt+Tab para cambiar a consola y ctrl+C
