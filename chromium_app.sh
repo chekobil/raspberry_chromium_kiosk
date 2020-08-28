@@ -3,6 +3,7 @@
 url=https://airtable.com/shrCjQjwDPteHhKpn/tblTxfk6jjpLo2JFE
 
 #Raspberry OS desktop
+export DISPLAY=":0"
 /usr/bin/chromium-browser --kiosk --fast --fast-start --app=$url
 
 # MAC OSX 10.15
