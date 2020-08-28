@@ -22,11 +22,12 @@ url=https://airtable.com/shrCjQjwDPteHhKpn/tblTxfk6jjpLo2JFEh
 /usr/bin/chromium-browser --kiosk --fast --fast-start --app=$url
 )
 
+# si la carpeta destino ya existe
+(rm -rf /home/pi/raspberry_chromium_kiosk)
+
 # clone repo install script
-(
-cd /home/pi
+(cd /home/pi
 git clone https://github.com/feliper/raspberry_chromium_kiosk.git
-sh /home/pi/raspberry_chromium_kiosk/install.sh
-)
+sh /home/pi/raspberry_chromium_kiosk/install.sh)
 
 # para cerrar navegador alt+F4 o alt+Tab para cambiar a consola y ctrl+C
