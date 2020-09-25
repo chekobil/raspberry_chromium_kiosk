@@ -8,3 +8,6 @@ export DISPLAY=":0"
 
 # MAC OSX 10.15
 #"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" --kiosk --fast --fast-start --app=$url
+
+#RELOAD?
+#https://unix.stackexchange.com/questions/37258/refresh-reload-active-browser-tab-from-command-line
