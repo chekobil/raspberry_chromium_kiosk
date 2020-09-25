@@ -14,6 +14,12 @@ sh /Users/g6/raspberry_chromium_kiosk/install.sh)
 # si la carpeta destino ya existe
 (rm -rf /Users/g6/raspberry_chromium_kiosk)
 
+# actualiza script = pull repo (git pull 'remote_name' 'branch_name')
+cd /Users/g6/raspberry_chromium_kiosk
+git pull origin master
+# actualiza crontab
+sh install.sh
+
 ### raspberry
 # test script
 (
@@ -29,5 +35,11 @@ url=https://airtable.com/shrCjQjwDPteHhKpn/tblTxfk6jjpLo2JFEh
 (cd /home/pi
 git clone https://github.com/feliper/raspberry_chromium_kiosk.git
 sh /home/pi/raspberry_chromium_kiosk/install.sh)
+
+# actualiza script = pull repo (git pull 'remote_name' 'branch_name')
+cd /home/pi/raspberry_chromium_kiosk
+git pull origin master
+# actualiza crontab
+sh install.sh
 
 # para cerrar navegador alt+F4 o alt+Tab para cambiar a consola y ctrl+C
