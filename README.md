@@ -1,4 +1,4 @@
-# open chromium on kiosk mode
+# open chromium on kiosk mode (on a Raspberry Pi)
 
 ### chromium_app.sh
 
@@ -20,4 +20,4 @@ pull from the repo to get the changes
 ### writecrontab.sh
 
 creates a crontab that execute the chromium_app.sh script  
-** be carefull, the script removes any previous line on crontab **
+***be carefull, the script removes any previous line on crontab***
