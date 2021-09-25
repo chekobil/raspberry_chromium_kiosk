@@ -1,3 +1,4 @@
+---
 ###chromium_app.sh
 open chromium browser in kiosk mode on the specified url
 chromium binary path depends on the OS, the script is for a Raspberry PI
