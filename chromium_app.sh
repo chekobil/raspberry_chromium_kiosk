@@ -1,6 +1,6 @@
 #!/bin/bash
 
-url=https://airtable.com/shrCjQjwDPteHhKpn/tblTxfk6jjpLo2JFE
+url=https://airtable.com
 
 #Raspberry OS desktop
 export DISPLAY=":0"
