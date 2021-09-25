@@ -1,7 +1,7 @@
 ### mac osx
 # test script
 (
-url=https://airtable.com/shrCjQjwDPteHhKpn/tblTxfk6jjpLo2JFE
+url=https://airtable.com
 # MAC OSX 10.15
 "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" --kiosk --fast --fast-start --app=$url
 )
@@ -23,7 +23,7 @@ sh install.sh
 ### raspberry
 # test script
 (
-url=https://airtable.com/shrCjQjwDPteHhKpn/tblTxfk6jjpLo2JFEh
+url=https://airtable.com
 #Raspberry OS desktop
 /usr/bin/chromium-browser --kiosk --fast --fast-start --app=$url
 )
